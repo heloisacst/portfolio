@@ -1,0 +1,31 @@
+#all-projects {
+  padding-bottom: 300px;
+}
+
+h2 {
+  max-width: 600px;
+  margin-left: 600px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.proj-card {
+  background-color: #A87C7C;
+  border-radius: 5%;
+  width: 500px;
+  margin: 35px;
+  margin-top: 45px;
+  padding: 30px;
+  padding-top: 5px;
+}
+
+.proj-title {
+  font-size: 32px;
+}
+
+.proj-desc-main {
+  text-align: justify;
+}

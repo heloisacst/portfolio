@@ -1,27 +1,32 @@
-# Portfolio
+# Porfólio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+Bem-vindo ao repositório do meu portfólio! Este projeto foi criado utilizando o framework Angular.
 
-## Development server
+## Como Iniciar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Siga as instruções a seguir para iniciar o projeto.
 
-## Code scaffolding
+### Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Certifique-se de ter o Node.js e o Angular CLI instalados em sua máquina.
 
-## Build
+- Node.js: [https://nodejs.org/](https://nodejs.org/)
+- Angular CLI: [https://angular.io/cli](https://angular.io/cli)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Instalação
 
-## Running unit tests
+1. Clone este repositório para sua máquina local: `git clone https://github.com/seu-usuario/meu-projeto-angular.git`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navegue até o diretório do projeto:
 
-## Running end-to-end tests
+3. Instale as dependências do projeto: `npm install`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Execução do Servidor de Desenvolvimento
 
-## Further help
+Para iniciar um servidor e visualizar o projeto no navegador, execute: `ng serve`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Acesse `http://localhost:4200/` em seu navegador para ver o projeto em execução.
+
+## Contribuindo
+
+Caso queira contribuir com este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Toda contribuição é bem-vinda! 🫰🏼

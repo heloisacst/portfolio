@@ -1,0 +1,21 @@
+#all-skills {
+  padding-bottom: 300px;
+}
+
+h2 {
+  max-width: 600px;
+  margin-left: 600px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.logo {
+  height: 180px;
+  width: 200px;
+}

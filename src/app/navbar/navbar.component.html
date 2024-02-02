@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <ul class="navbar-items">
+    <li><a href="#home">Home</a></li>
+    <li (click)="scrollTo('about')"><a>Sobre</a></li>
+    <li><a (click)="scrollTo('all-projects')">Projetos</a></li>
+    <li><a href="#contact">Contato</a></li>
+    <li (click)="toggleLanguageMenu()"><img src=".././assets/brazil.png"></li>
+    <ul *ngIf="showLanguageMenu" id="langOptions">
+      <li (click)="selectLanguage('portuguese')">Português</li>
+    </ul>
+  </ul>
+</nav>
