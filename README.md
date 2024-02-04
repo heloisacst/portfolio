@@ -15,7 +15,7 @@ Certifique-se de ter o Node.js e o Angular CLI instalados em sua máquina.
 
 ### Instalação
 
-1. Clone este repositório para sua máquina local: `git clone https://github.com/seu-usuario/meu-projeto-angular.git`
+1. Clone este repositório para sua máquina local: `git clone https://github.com/heloisacst/portfolio.git`
 
 2. Navegue até o diretório do projeto:
 
