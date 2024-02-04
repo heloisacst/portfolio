@@ -1,6 +1,6 @@
-# Porfólio
+# Portfólio
 
-Bem-vindo ao repositório do meu portfólio! Este projeto foi criado utilizando o framework Angular.
+Bem-vindo(a) ao repositório do meu portfólio! Este projeto foi criado utilizando o framework Angular.
 
 ## Como Iniciar
 
