@@ -8,7 +8,7 @@ import { Component, HostListener } from '@angular/core';
 
 export class ScrollTopComponent {
   mostrarBotao = false;
-  pontoDeExibicao = 300; // Defina o ponto de exibição conforme necessário
+  pontoDeExibicao = 300;
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -20,7 +20,6 @@ export class ScrollTopComponent {
   }
 
   scrollToTop() {
-    // Rola suavemente para o topo da página
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

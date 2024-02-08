@@ -3,7 +3,11 @@
 html, body {
   height: 100%;
   margin: 0px;
-  background-color: black;
+  background-color: #3D3434;
+}
+
+.contact-background {
+  background-color: #3D3434;
 }
 
 

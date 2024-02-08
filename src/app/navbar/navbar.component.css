@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color:rgb(61, 29, 29);
+}
+
 li {
   cursor: pointer;
 }

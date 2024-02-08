@@ -6,9 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
-import {ScrollTopComponent} from './scroll-to-top/scroll-top-component';
+import { ScrollTopComponent} from './scroll-to-top/scroll-top-component';
+import { ContactComponent } from './contact/contact.component';
 
-import { AppRoutingModule } from './app.routes';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
+    ContactComponent,
     ScrollTopComponent
   ],
   imports: [CommonModule,
