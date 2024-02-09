@@ -1,0 +1,19 @@
+:host {
+  position: fixed;
+  bottom: 20px; /* Altere este valor conforme necessário para ajustar a posição vertical */
+  left: 20px; /* Altere este valor conforme necessário para ajustar a posição horizontal */
+}
+
+a {
+  cursor: pointer;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+}

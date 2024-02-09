@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ScrollTopComponent} from './scroll-to-top/scroll-top-component';
+import { WhatsappComponent } from './whatsapp/whatsapp.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -21,7 +22,8 @@ import { AppComponent } from './app.component';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    WhatsappComponent,
   ],
   imports: [CommonModule,
             BrowserModule,

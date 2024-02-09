@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -14,14 +14,6 @@ export class HomeComponent {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
-
-  enviarMensagem() {
-    let numeroTelefone = '5547997629625';
-    let mensagem = 'Olá! Vi seu portfólio, podemos conversar?';
-
-    window.open(`https://wa.me/${numeroTelefone}?text=${encodeURIComponent(mensagem)}`, '_blank');
-  }
-
 
 }
 
