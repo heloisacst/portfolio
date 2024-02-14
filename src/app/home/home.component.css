@@ -8,13 +8,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 20vh;
 }
 
 .name {
-  font-size: 30px;
+  font-size: 2.3vw;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 2vh;
 }
 
 .role {
@@ -28,10 +28,32 @@
   color: white;
   font-family: 'Krona One', sans-serif;
   border-radius: 10px;
-  width: 125px;
-  height: 45px;
+  width: 9vw;
+  height: 6.5vh;
   margin-top: 15px;
+  font-size: 2vh;
   border: none;
   cursor: pointer;
+}
+
+.button-about:hover {
+  background-color: white;
+  color: #503C3C;
+}
+
+@media only screen and (max-width: 767px) {
+  .name {
+    font-size: 5vw;
+  }
+
+  .me {
+    width: 30vw;
+  }
+
+  .button-about {
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.3vh;
+  }
 }
 

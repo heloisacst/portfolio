@@ -1,4 +1,4 @@
-import { Component, ElementRef} from '@angular/core';
+import { Component, ElementRef, HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -24,6 +24,21 @@ export class NavbarComponent{
   selectLanguage(language: string): void {
     console.log(`Idioma selecionado: ${language}`);
     this.showLanguageMenu = false; // Oculta o menu após a seleção
+  }
+
+  isMenuOpen: boolean = window.innerWidth > 767;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any){
+    this.isMenuOpen = window.innerWidth > 767;
+  }
+
+  isMobile(): boolean {
+    return window.innerWidth <= 1200;
   }
 
 }

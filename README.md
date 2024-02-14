@@ -29,4 +29,4 @@ Acesse `http://localhost:4200/` em seu navegador para ver o projeto em execuçã
 
 ## Contribuindo
 
-Caso queira contribuir com este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Toda contribuição é bem-vinda! 🫰🏼
+Caso queira contribuir com este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Toda contribuição é bem-vinda!

@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+label {
+  margin-right: 5px;
+}
+
+input {
+  border-radius: 5%;
+  border-style: none;
+  height: 25px;
+}

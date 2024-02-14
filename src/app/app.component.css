@@ -5,7 +5,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
-  min-height: 100vh; /* Garante que a imagem de fundo cubra toda a altura da tela */
+  min-height: 100vw; /* Garante que a imagem de fundo cubra toda a altura da tela */
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -14,20 +14,31 @@
 .brand-name {
   display: flex;
   justify-content: space-between;
-  height: 100px;
-  width: 1200px;
-  padding-top: 10px;
+  height: 25vh;
+  width: 95vw;
+  padding-top: 1vw;
 }
 
 .brand-logo {
   width: 4.06rem;
   height: 4.62rem;
-  margin: 5px;
+  margin: 0.31rem;
   opacity: 0.5;
 }
 
 main {
   font-family: 'Krona One', sans-serif;
   color: white;
+}
+
+@media only screen and (max-width: 767px){
+  .brand-logo {
+    width: 2.06rem;
+    height: 2.62rem;
+  }
+
+  .background-container {
+    background-size: auto;
+  }
 }
 

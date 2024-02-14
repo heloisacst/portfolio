@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -6,6 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  constructor() {}
+
+  submit(formulario: NgForm, event: Event) {
+    event.preventDefault();
+
+    const nome = formulario.value.name;
+    const telefone = formulario.value.phone;
+    const mensagem = formulario.value.message;
+  }
 
 }

@@ -1,21 +1,37 @@
 #all-skills {
-  padding-bottom: 300px;
+  padding-bottom: 55vh;
 }
 
 h2 {
-  max-width: 600px;
-  margin-left: 600px;
+  display: flex;
+  justify-content: center;
 }
 
 .skills {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: space-between;
   margin-top: 50px;
 }
 
-.logo {
-  height: 180px;
-  width: 200px;
+.logo-a {
+  width: 15vw;
+}
+
+.logo-v {
+  width: 15vw;
+}
+
+.logo-t {
+  width: 15vw;
+}
+
+.logo-j {
+  width: 15vw;
+}
+
+.logo-s {
+  width: 15vw;
 }

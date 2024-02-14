@@ -36,3 +36,32 @@ li {
   color:black;
   font-size: 11px;
 }
+
+@media only screen and (max-width: 767px){
+  .menu-icon {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .navbar-items {
+    position: fixed; /*mantem o icon no fim*/
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease; /* Transição suave */
+    display: flex;
+    flex-direction: column; /* Exibir itens verticalmente */
+    align-items: flex-start; /* Alinhar itens à esquerda */
+    padding-top: 20px; /* Adicionar algum espaço superior */
+  }
+
+  .menu.show + .navbar-items {
+    transform: translateX(0);
+  }
+
+}
