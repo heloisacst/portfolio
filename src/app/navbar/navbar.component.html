@@ -6,7 +6,7 @@
     <li *ngIf="isMenuOpen" ><a [routerLink]="['/']">Home</a></li>
     <li *ngIf="isMenuOpen" (click)="scrollTo('about')"><a>Sobre</a></li>
     <li *ngIf="isMenuOpen" (click)="scrollTo('all-projects')"><a>Projetos</a></li>
-    <li *ngIf="isMenuOpen"><a href="/contact">Contato</a></li>
+    <!--<li *ngIf="isMenuOpen"><a href="/contact">Contato</a></li>-->
     <li *ngIf="isMenuOpen" (click)="toggleLanguageMenu()"><img src=".././assets/brazil.png"></li>
     <ul *ngIf="showLanguageMenu && isMenuOpen" id="langOptions">
       <li (click)="selectLanguage('portuguese')">Português</li>

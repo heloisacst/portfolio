@@ -32,6 +32,11 @@ main {
 }
 
 @media only screen and (max-width: 767px){
+
+ /* .brand-name {
+    width: 80vw;
+  }*/
+
   .brand-logo {
     width: 2.06rem;
     height: 2.62rem;
@@ -39,6 +44,8 @@ main {
 
   .background-container {
     background-size: auto;
+    /*width: 88vw;*/
   }
+
 }
 
